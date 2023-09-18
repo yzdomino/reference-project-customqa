@@ -34,6 +34,7 @@ This project requires the following [compute environments](https://docs.dominoda
 ```
 USER root
 
+RUN sudo update
 RUN sudo apt -y install tesseract-ocr
 RUN sudo apt-get -y install libpoppler-dev
 RUN sudo apt-get install poppler-utils
